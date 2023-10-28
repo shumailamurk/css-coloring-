@@ -1,0 +1,98 @@
+*{
+  margin: 0px;
+  padding:0px ;
+  box-sizing: border-box;
+}
+
+nav{
+  width:100% ;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+  background-image:linear-gradient(#0a1214ba,#102a31);
+}
+nav .logo p{
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+nav li a{
+ font-size: 18px;
+ text-transform: uppercase;
+ padding:0px 30px;
+ color: white;
+ text-decoration: none;
+}
+nav ul{
+  float: right;
+}
+nav li{
+  display: inline;
+  list-style: none;
+}
+nav li a:hover{
+  color: rgb(174, 117, 32);
+  transition: all 0.4s ease 0s;
+}
+.MYDATA h1{
+  margin-top: 5px;
+  text-align: center;
+}
+
+.MYDATA table{
+    padding: 8px;
+    border: 1;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+    
+.MYDATA th{
+background-color: rgba(186, 87, 6, 0.799);
+font-weight: bold;
+}
+#first{
+  background-color: rgba(18, 242, 167, 0.377);
+}
+
+#second{
+  background-color: rgba(123, 210, 235, 0.772);
+}
+#third{
+  background-color: rgba(22, 178, 218, 0.584);
+}
+.button{
+  background-color: rgb(210, 44, 35);
+  border-radius:10px;
+  box-shadow: inset;
+  font-style: normal;
+
+}
+.icons{
+  padding:20px ;
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(87, 160, 186);
+margin-top: 10px;
+}
+body{
+  background-image:url("https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 ");
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
